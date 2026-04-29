@@ -63,7 +63,7 @@ export function SplitScreen() {
       <div className="absolute inset-0 z-0 flex">
         <motion.button
           type="button"
-          aria-label="Enter Studio world"
+          aria-label="Enter Chithramaya world"
           className="relative flex h-full flex-col border-0 bg-zinc-950 p-0 text-left outline-none ring-0"
           style={{ willChange: "width, opacity" }}
           initial={false}
@@ -85,7 +85,7 @@ export function SplitScreen() {
               transition={{ duration: 0.35, ease: "easeOut" }}
             >
               <KineticText
-                text="STUDIO"
+                text="CHITHRAMAYA"
                 active={hovered === "left" && !exitTarget}
                 className="select-none text-5xl font-extralight tracking-[0.55em] text-stone-100 sm:text-6xl md:text-7xl"
               />
@@ -95,14 +95,14 @@ export function SplitScreen() {
               animate={{ opacity: exitTarget ? 0 : 1, scale: exitTarget ? 0.94 : 1 }}
               transition={{ duration: 0.32, ease: "easeOut" }}
             >
-              <Image src="/studio_aesthetic.png" alt="Studio Aesthetic" fill className="object-cover" />
+              <Image src="/studio_aesthetic.png" alt="Chithramaya Aesthetic" fill className="object-cover" />
             </motion.div>
           </div>
         </motion.button>
 
         <motion.button
           type="button"
-          aria-label="Enter Lifestyle world"
+          aria-label="Enter Thalam world"
           className="relative flex h-full flex-col overflow-hidden border-0 bg-stone-100 p-0 text-left outline-none ring-0"
           style={{ willChange: "width, opacity" }}
           initial={false}
@@ -140,14 +140,14 @@ export function SplitScreen() {
               animate={{ opacity: exitTarget ? 0 : 1, scale: exitTarget ? 0.94 : 1 }}
               transition={{ duration: 0.32, ease: "easeOut" }}
             >
-              <Image src="/lifestyle_aesthetic.png" alt="Lifestyle Aesthetic" fill className="object-cover" />
+              <Image src="/lifestyle_aesthetic.png" alt="Thalam Aesthetic" fill className="object-cover" />
             </motion.div>
             <motion.div
               animate={{ opacity: exitTarget ? 0 : 1, filter: exitTarget ? "blur(10px)" : "blur(0px)" }}
               transition={{ duration: 0.35, ease: "easeOut" }}
             >
               <KineticText
-                text="LIFESTYLE"
+                text="THALAM"
                 active={hovered === "right" && !exitTarget}
                 className="select-none text-5xl font-extralight tracking-[0.35em] text-zinc-900 sm:text-6xl md:text-7xl"
               />

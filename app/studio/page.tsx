@@ -7,6 +7,12 @@ import { StageThreeParallax } from "@/components/pipeline/StageThreeParallax";
 import { StageFourRefraction } from "@/components/pipeline/StageFourRefraction";
 import { StageFiveDelivery } from "@/components/pipeline/StageFiveDelivery";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Precision Offsite",
+  description: "Experience deep focus, pure aesthetic control, and technical perfection completely tuned to elevate your overarching brand identity.",
+};
 
 export default function StudioPage() {
   return (
