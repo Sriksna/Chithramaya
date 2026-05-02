@@ -14,11 +14,6 @@ export default function MaintenancePage() {
       
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-center text-center px-6">
-        <div className="inline-block animate-fade-in-up" style={{ animationDuration: '1s', animationFillMode: 'both' }}>
-          <span className="px-3 py-1 text-xs tracking-[0.2em] font-medium uppercase border border-white/10 rounded-full bg-white/5 backdrop-blur-sm text-white/70 mb-8 inline-block">
-            Maintenance
-          </span>
-        </div>
         
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 animate-fade-in-up" style={{ animationDuration: '1s', animationDelay: '0.2s', animationFillMode: 'both' }}>
           <span className="bg-clip-text text-transparent bg-gradient-to-b from-white to-white/50">
@@ -26,9 +21,8 @@ export default function MaintenancePage() {
           </span>
         </h1>
         
-        <p className="max-w-xl text-lg md:text-xl text-white/50 font-light leading-relaxed mb-12 animate-fade-in-up" style={{ animationDuration: '1s', animationDelay: '0.4s', animationFillMode: 'both' }}>
-          We are currently elevating our digital experience. 
-          A new vision for our premium creative studio is unfolding.
+        <p className="max-w-xl text-xl md:text-2xl text-white/50 font-light leading-relaxed mb-12 animate-fade-in-up" style={{ animationDuration: '1s', animationDelay: '0.4s', animationFillMode: 'both' }}>
+          We are currently elevating our digital experience.
         </p>
         
         <div className="h-[1px] w-24 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-pulse" />
